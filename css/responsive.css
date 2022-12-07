@@ -1,0 +1,69 @@
+@media (max-width:1030px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 500px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%, -50%);
+    }
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 2.5rem;
+    }
+    .special .countdown-container .countdown-counter li{
+        padding:1.5rem 1rem;
+    }
+}
+
+@media (max-width:991px){
+    .home .home-banner .home-banner-text{
+        transform: translate(-65%, -50%);
+    }
+    .special .countdown-container{
+        padding-top:1rem;
+        padding-bottom:5rem;
+    }
+}
+@media (max-width:767px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 400px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 2.5rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.5rem;
+    }
+    .home .home-banner .home-banner-text .btn-1{
+        padding: 0.5rem 1.5rem;
+    }
+    .offers{
+        padding-top: 5rem;
+    }
+    .special{
+        padding:4rem 0;
+    }
+    .special .countdown-container .countdown-counter li{
+        padding:1rem;
+        width:20%;
+    }
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:420px){
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 1.5rem;
+    }
+}
